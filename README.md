@@ -27,22 +27,12 @@
 
 ### 🏦 AI Engineer & IT Support — Sopra Banking Software (SBS), Casablanca
 `Final-year internship · Mar 2026 – Aug 2026`
-- Member of the **Care First Line** team: end-to-end handling of tickets on the **Amplitude** core-banking solution — ErrLog analysis &amp; debugging, server testing via MobaXterm, end-of-day (TFJ) processing, SQL workaround scripts, fix follow-up to resolution.
-- Designed **Smart Process**, an AI agent built on **Microsoft Copilot Studio** and powered by **Claude Sonnet 4.6**, using SharePoint &amp; Excel knowledge bases to automate L1/L2 ticket analysis.
-- Automated business checks (priority, type, format, metadata, **GDPR compliance**) and generated structured responses (context, anomalies, alerts, draft customer reply) delivered in **Microsoft Teams**.
-- **Human-in-the-Loop** validation before anything reaches the customer, with human feedback used to continuously improve prompts, relevance and reliability.
-- <sub>4GL · SQL · Oracle · Informix · Copilot Studio · Claude Sonnet 4.6 · Power Automate · EasyVista · SharePoint · Teams · GitLab</sub>
 
 ### 🤖 Backend &amp; AI Developer — OmniSoft, Paris
 `Work-study internship · Mar 2025 – Jul 2025`
-- Built a **RAG** solution for document search with REST APIs for ingestion, indexing and processing.
-- NLP processing and **vector search** to improve result relevance; LLM API integration for contextual answers.
-- Unit &amp; integration tests for API reliability; **Docker** containerization and test-environment deployments.
 
 ### 🧠 Web &amp; AI Developer — Mtech Technologies, Casablanca
 `Final-year internship · Apr 2024 – Jul 2024`
-- Designed a **RAG pipeline** with the OpenAI API and **LangChain** to answer questions over uploaded documents, with a **Streamlit** interface.
-- Audio transcription with **OpenAI Whisper** and image understanding with **BLIP** (Hugging Face).
 
 <div align="center">
 
