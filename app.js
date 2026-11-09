@@ -30,15 +30,6 @@ const JOBS = [
     place: "Casablanca",
     type: "Final-year internship",
     dates: "Mar 2026 – Aug 2026",
-    bullets: [
-      "Joined the <b>Care First Line</b> team and autonomously handled tickets on the <b>Amplitude</b> core-banking solution end to end: ErrLog analysis & debugging, server testing via MobaXterm, end-of-day (TFJ) processing, SQL workaround scripts and fix follow-up to resolution.",
-      "Designed <b>Smart Process</b>, an AI agent built on <b>Microsoft Copilot Studio</b> and powered by <b>Claude Sonnet 4.6</b>, using SharePoint & Excel knowledge bases to automate and harden L1/L2 ticket analysis.",
-      "Automated business checks: priority, type, format, metadata and <b>GDPR compliance</b>.",
-      "Generated structured answers (context, anomalies, alerts, draft customer reply) delivered in <b>Microsoft Teams</b>.",
-      "<b>Human-in-the-Loop</b>: colleagues validate, adjust or reject each recommendation before it reaches the customer.",
-      "Used human feedback to continuously improve prompts, relevance, reliability and agent performance.",
-    ],
-    stack: ["4GL", "SQL", "Oracle", "Informix", "Copilot Studio", "Claude Sonnet 4.6", "Power Automate", "EasyVista", "SharePoint", "Teams", "Excel", "MobaXterm", "GitLab"],
   },
   {
     role: "Backend & AI Developer",
@@ -46,16 +37,6 @@ const JOBS = [
     place: "Paris, Île-de-France",
     type: "Work-study internship",
     dates: "Mar 2025 – Jul 2025",
-    bullets: [
-      "Built a <b>RAG</b> (Retrieval-Augmented Generation) solution for document search.",
-      "Implemented backend <b>REST APIs</b> for data ingestion, indexing and processing.",
-      "Added NLP processing and <b>vector search</b> to improve result relevance.",
-      "Developed backend tools connecting AI services to application components.",
-      "Wrote unit & integration tests to make the APIs more reliable.",
-      "Integrated LLM APIs to generate contextualised answers from documents.",
-      "Containerised with <b>Docker</b> and took part in test-environment deployments.",
-    ],
-    stack: ["Python", "REST API", "RAG", "Vector search", "NLP", "LLM APIs", "Docker"],
   },
   {
     role: "Web & AI Developer",
@@ -63,15 +44,6 @@ const JOBS = [
     place: "Casablanca",
     type: "Final-year internship",
     dates: "Apr 2024 – Jul 2024",
-    bullets: [
-      "Designed a <b>RAG pipeline</b> with the OpenAI API to answer questions over uploaded documents.",
-      "Improved search accuracy with vector search and semantic processing.",
-      "Built a <b>Streamlit</b> interface to upload and query documents.",
-      "Integrated <b>LangChain</b> and the OpenAI API for contextualised answers.",
-      "Audio transcription with <b>OpenAI Whisper</b>.",
-      "Image analysis & understanding with the <b>BLIP</b> model via Hugging Face.",
-    ],
-    stack: ["Python", "OpenAI API", "LangChain", "Streamlit", "Whisper", "BLIP", "Hugging Face"],
   },
 ];
 
@@ -196,8 +168,6 @@ const COMMANDS = {
       const html = JOBS.map((j) => `<div class="job">
   <div class="role">${esc(j.role)} <span class="muted">@</span> <span class="ok">${esc(j.company)}</span></div>
   <div class="meta">${esc(j.dates)} · ${esc(j.type)} · ${esc(j.place)}</div>
-  <ul>${j.bullets.map((b) => `<li>${b}</li>`).join("")}</ul>
-  <div class="chips">${j.stack.map((s) => `<span class="chip k">${esc(s)}</span>`).join("")}</div>
 </div>`).join("");
       block(`<div class="sec-title">experience</div>${html}`);
     },
