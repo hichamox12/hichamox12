@@ -167,7 +167,6 @@ const COMMANDS = {
     run() {
       const html = JOBS.map((j) => `<div class="job">
   <div class="role">${esc(j.role)} <span class="muted">@</span> <span class="ok">${esc(j.company)}</span></div>
-  <div class="meta">${esc(j.dates)} · ${esc(j.type)} · ${esc(j.place)}</div>
 </div>`).join("");
       block(`<div class="sec-title">experience</div>${html}`);
     },
